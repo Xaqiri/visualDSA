@@ -1,8 +1,8 @@
 import pygame as p 
 
 class Bar(): 
-    def __init__(self, height, y, color): 
-        self.width = 10 
+    def __init__(self, width, height, y, color): 
+        self.width = width 
         self.height = height 
         self.y = y - self.height 
         self.color = color 
