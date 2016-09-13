@@ -4,4 +4,4 @@ All will be done in Python + Pygame initially, but I plan to implement at least 
 
 Bubble Sort: 
   - Currently only implemented in Python + Pygame (3.5.1 + 1.9.2b1)
-  - Press the spacebar to advance the sorting algorithm by one step 
+  - Press the backspace key to restart the algorithm 
