@@ -29,7 +29,8 @@ def bubble_sort(l):
         break 
             
 def create_array(): 
-    return [Bar(random.randint(1, bar_height)*3, w_h-10, random.choice(COLORS)) for i in range(num_bars)]
+    return [Bar(random.randint(1, bar_height)*3, w_h-10, random.choice(COLORS)) for i in range(num_bars)] 
+    
 def create_colors(): 
     global COLORS 
     COLORS = [(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)) for i in range(5)] 
